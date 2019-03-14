@@ -29,7 +29,7 @@ setup(
     packages=find_packages(exclude=["*.tests", "*.tests.*",
                                     "tests.*", "tests"]),
     install_requires=[
-        'spacy>=2.0,<2.1',
+        'spacy==1.9.0',
         'nltk',
         'python-Levenshtein==0.12.0'
     ],
